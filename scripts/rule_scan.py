@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Heuristic scan of a Markdown rulebook. Suggests tiers; humans decide."""
+"""Heuristic scan of a Markdown rulebook. Suggests tiers; humans decide.
+
+Usage:
+    rule_scan.py <rules.md>
+
+Prints a JSON summary to stdout. Exit codes: 0 = scan completed (tiers are
+suggestions, not judgments), 2 = wrong arguments.
+"""
 import json, re, sys, csv
 
 MUST = re.compile(r"(必须|不得|禁止|务必|must|shall|required|never|do not|don't)", re.I)
