@@ -1,3 +1,5 @@
+> Part of [Agent Governance Skills](https://github.com/cengcengcai-creator/openclaw-agent-governance) - five skills that make agent rules actually hold.
+
 # agent-rule-enforcement
 
 An AgentSkill for one question: **are your agent's rules actually enforced, or only written down?**
